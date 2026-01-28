@@ -1,20 +1,7 @@
-How to run
-----------
+# UVM testbenching
+# Simple adder
 
-This Makefile is made to be used with Synopsys VCS but it should be easily adaptable to any SystemVerilog simulator.
+## Overview
+This project was designed to implement a simple adder in SV. The goal was to learn UVM testbenching Methodology. 
 
-To run the simulation you just need to type:
-
-	$ make -f Makefile.vcs
-
-
-Configuration
--------------
-
-You'll need to edit the Makefile.vcs file and change the variable 'UVM_HOME' to your UVM installation.
-
-
-Explanation of the code
------------------------
-
-An explanation of this UVM testbench can be found at: http://colorlesscube.com/uvm-guide-for-beginners/
+The code provided in this folder was created by Pedro Araujo. I have added comments in an attempt UVM. 
