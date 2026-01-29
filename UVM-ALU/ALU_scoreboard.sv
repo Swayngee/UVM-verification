@@ -1,3 +1,7 @@
+// Drake Gonzales
+// drgonzales@g.hmc.edu
+// UVM Scoreboard for ALU
+
 `uvm_analysis_imp_decl(_before) // Generate new analysis implementation classes
 `uvm_analysis_imp_decl(_after) // Macros saying I want two independent write entry points
 // By doing this u get function void write_before.... function void write_after

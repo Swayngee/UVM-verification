@@ -1,3 +1,7 @@
+// Drake Gonzales
+// drgonzales@g.hmc.edu
+// ALU interface definition
+
 interface ALU_if;
 	logic [1:0]		sig_ALUop;
 	logic [2:0]		sig_funct3;

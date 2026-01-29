@@ -1,3 +1,7 @@
+// Drake Gonzales
+// drgonzales@g.hmc.edu
+// UVM Driver for ALU
+
 class ALU_driver extends uvm_driver#(ALU_transaction); // derives a class names simple_adder_driver from the UVM class uvm_driver
 // The # used above is an SV parameter and it represents the data type used in the sequencer
 	`uvm_component_utils(ALU_driver) // Utils macro

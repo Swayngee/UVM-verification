@@ -1,3 +1,7 @@
+// Drake Gonzales
+// drgonzales@g.hmc.edu
+// Package file for ALU UVM components
+
 package ALU_pkg;
 	import uvm_pkg::*;
 

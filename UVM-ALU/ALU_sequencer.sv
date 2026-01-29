@@ -1,3 +1,7 @@
+// Drake Gonzales
+// drgonzales@g.hmc.edu
+// UVM Sequencer and Transaction for ALU
+
 class ALU_transaction extends uvm_sequence_item;
     rand bit [1:0] ALUop;       // matches DUT input
     rand bit [2:0] funct3;      // matches DUT input

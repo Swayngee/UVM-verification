@@ -1,3 +1,7 @@
+// Drake Gonzales
+// drgonzales@g.hmc.edu
+// Top-level testbench for ALU UVM verification
+
 `include "ALU_pkg.sv"
 `include "ALU.sv" //import the DUT
 `include "ALU_if.sv" //import the adder interface
