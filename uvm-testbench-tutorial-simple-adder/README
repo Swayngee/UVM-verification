@@ -1,7 +1,4 @@
-# UVM testbenching
-# Simple adder
+# UVM testbenching -- Simple Adder
+These files were created by Pedro Araujo for UVM verification explanation
 
-## Overview
-This project was designed to implement a simple adder in SV. The goal was to learn UVM testbenching Methodology. 
-
-The code provided in this folder was created by Pedro Araujo. I have added comments in an attempt UVM. 
+I have added comments (No code) to the following folder in an attempt to learn UVM methodology. Each comment was made in an attempt to understand UVM structure, syntax, and datapath. 
