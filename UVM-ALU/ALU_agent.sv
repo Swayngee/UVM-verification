@@ -2,6 +2,9 @@
 // drgonzales@g.hmc.edu
 // This is the UVM agent for the ALU
 
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+
 class ALU_agent extends uvm_agent;
 	`uvm_component_utils(ALU_agent)
 	// Analysius ports to connect the monitors to the scoreboard

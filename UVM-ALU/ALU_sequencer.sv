@@ -1,6 +1,8 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // UVM Sequencer and Transaction for ALU
+import uvm_pkg::*;
+`include "uvm_macros.svh"
 
 class ALU_transaction extends uvm_sequence_item;
     rand bit [1:0] ALUop;       // matches DUT input

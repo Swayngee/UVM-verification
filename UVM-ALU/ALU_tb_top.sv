@@ -1,6 +1,8 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // Top-level testbench for ALU UVM verification
+import uvm_pkg::*;
+`include "uvm_macros.svh"
 
 `include "ALU_pkg.sv"
 `include "ALU.sv" //import the DUT

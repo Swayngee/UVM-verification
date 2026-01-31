@@ -1,6 +1,8 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // Below is the UVM test for the ALU Decoder
+import uvm_pkg::*;
+`include "uvm_macros.svh"
 
 class ALU_test extends uvm_test;
 		`uvm_component_utils(ALU_test) // UVM macro to register the class with the factory
