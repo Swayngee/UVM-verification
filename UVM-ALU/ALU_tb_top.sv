@@ -5,17 +5,16 @@ import uvm_pkg::*;
 `include "uvm_macros.svh"
 
 `include "ALU_pkg.sv"
-`include "ALU.sv" //import the DUT
-`include "ALU_if.sv" //import the adder interface
+`include "ALUDecoder.sv" //import the DUT
+`include "ALU_if.sv"
 
 module ALU_tb_top;
-	import uvm_pkg::*; // imports the UVM library
-
+	import ALU_pkg::*;
 	//Interface declaration
 	ALU_if vif(); // <- declares signals 
 
 	//Connects the Interface to the DUT
-	ALU_Decoder dut(vif.sig_ALUop,
+	ALUDecoder dut(vif.sig_ALUop,
 			vif.sig_funct3,
 			vif.sig_funct7b5,
 			vif.sig_op,

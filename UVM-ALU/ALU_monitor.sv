@@ -1,8 +1,7 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // UVM Monitor for ALU
-import uvm_pkg::*;
-`include "uvm_macros.svh"
+
 
 class ALU_monitor_before extends uvm_monitor;
 	`uvm_component_utils(ALU_monitor_before)
@@ -35,7 +34,7 @@ class ALU_monitor_before extends uvm_monitor;
 
             // Send to analysis port
             mon_ap_before.write(tr);
-
+	    #1
         end
     endtask
 endclass: ALU_monitor_before
@@ -78,6 +77,7 @@ class ALU_monitor_after extends uvm_monitor;
 
             // Send to analysis port
             mon_ap_after.write(tr);
+	    #1
         end
     endtask
 

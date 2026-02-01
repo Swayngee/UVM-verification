@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userSetting name="C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/uvmalu/promote.xml" version="Diamond (64-bit) 2024.2.0.3.0" date="Sun Feb 01 12:25:23 2026" vendor="Lattice Semiconductor Corporation" >
+  <msg mid="2043137" type="Error" internal="true" />
+  <msg mid="2043245" type="Error" internal="true" />
+  <msg mid="2043128" type="Error" internal="true" />
+  <msg mid="2043158" type="Warning" internal="true" />
+  <msg mid="2044344" type="Error" internal="true" />
+  <msg mid="2043328" type="Info" internal="true" />
+  <msg mid="2043252" type="Error" internal="true" />
+  <msg mid="2044320" type="Info" internal="true" />
+  <msg mid="2043671" type="Warning" internal="true" />
+  <msg mid="2043018" type="Info" internal="true" />
+</userSetting>

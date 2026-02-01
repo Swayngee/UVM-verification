@@ -1,0 +1,135 @@
+
+"C:/lscc/radiant/2024.2/tcltk/windows/bin/tclsh" "uvmalu_impl_1_synthesize.tcl"
+
+synthesis -f C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/uvmalu/impl_1/uvmalu_impl_1_lattice.synproj -logfile uvmalu_impl_1_lattice.srp
+synthesis:  version Radiant Software (64-bit) 2024.2.0.3.0
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Feb  1 12:25:19 2026
+
+
+Command Line:  C:\lscc\radiant\2024.2\ispfpga\bin\nt64\synthesis.exe -f C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/uvmalu/impl_1/uvmalu_impl_1_lattice.synproj -logfile uvmalu_impl_1_lattice.srp -gui -msgset C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/uvmalu/promote.xml 
+
+INFO <35002000> - synthesis: Lattice Synthesis Engine launched.
+
+The -top option is not used.
+Synthesis options:
+The -a option is iCE40UP.
+The -t option is SG48.
+The -sp option is High-Performance_1.2V.
+The -p option is iCE40UP5K.
+
+###################### Device Information ######################
+----------------------------------------------------------------
+Lattice Family        | iCE40UP
+----------------------------------------------------------------
+Device                | iCE40UP5K
+----------------------------------------------------------------
+Package               | SG48
+----------------------------------------------------------------
+Performance Grade     | High-Performance_1.2V
+----------------------------------------------------------------
+################################################################
+
+####################### Device Resources #######################
+----------------------------------------------------------------
+Logic Cells           | 5280
+----------------------------------------------------------------
+RAM Blocks            | 30
+----------------------------------------------------------------
+DSP Blocks            | 8
+----------------------------------------------------------------
+PLLs                  | 1
+----------------------------------------------------------------
+I/O Pins              | 56
+----------------------------------------------------------------
+################################################################
+
+Resolving user-selected strategy settings...
+
+
+###################### Strategy Settings #######################
+----------------------------------------------------------------
+Optimization Goal     | Area
+----------------------------------------------------------------
+Top-level Module Name | 
+----------------------------------------------------------------
+Target Frequency      | 200.000 MHz
+----------------------------------------------------------------
+Maximum Fanout        | 1000
+----------------------------------------------------------------
+Timing Path Count     | 3
+----------------------------------------------------------------
+RAM Read/Write Check  | False
+----------------------------------------------------------------
+BRAM Utilization      | 100.0%
+----------------------------------------------------------------
+DSP Usage             | True
+----------------------------------------------------------------
+DSP Utilization       | 100.0%
+----------------------------------------------------------------
+FSM Encoding Style    | Auto
+----------------------------------------------------------------
+Resolve Mixed Drivers | False
+----------------------------------------------------------------
+Fix Gated Clocks      | True
+----------------------------------------------------------------
+Mux Style             | Auto
+----------------------------------------------------------------
+Use Carry Chain       | True
+----------------------------------------------------------------
+Carry Chain Length    | Infinite
+----------------------------------------------------------------
+Loop Limit            | 1950
+----------------------------------------------------------------
+Use I/O Insertion     | True
+----------------------------------------------------------------
+Use I/O Registers     | True
+----------------------------------------------------------------
+Resource Sharing      | True
+----------------------------------------------------------------
+Propagate Constants   | True
+----------------------------------------------------------------
+Remove Duplicate Reg  | True
+----------------------------------------------------------------
+Force GSR             | False
+----------------------------------------------------------------
+ROM Style             | Auto
+----------------------------------------------------------------
+RAM Style             | Auto
+----------------------------------------------------------------
+Remove LOC Properties | False
+----------------------------------------------------------------
+Partition Flow        | False
+----------------------------------------------------------------
+################################################################
+
+
+The -comp option is FALSE.
+The -syn option is FALSE.
+
+Output HDL filename: uvmalu_impl_1.vm
+-path C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/uvmalu (searchpath added)
+-path C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/uvmalu/impl_1 (searchpath added)
+-path C:/lscc/radiant/2024.2/ispfpga/ice40tp/data (searchpath added)
+Mixed language design
+CRITICAL <35001476> - A top-level module has not been specified for the mixed language design.
+Verilog design file: C:/lscc/radiant/2024.2/ip/pmi/pmi_iCE40UP.v
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_config.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_if.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_pkg.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_sequencer.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_tb_top.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv
+Verilog design file: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALUDecoder.sv
+VHDL library: pmi
+VHDL design file: C:/lscc/radiant/2024.2/ip/pmi/pmi_iCE40UP.vhd

@@ -1,8 +1,8 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // UVM Scoreboard for ALU
-import uvm_pkg::*;
-`include "uvm_macros.svh"
+
+
 
 `uvm_analysis_imp_decl(_before) // Generate new analysis implementation classes
 `uvm_analysis_imp_decl(_after) // Macros saying I want two independent write entry points

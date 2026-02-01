@@ -1,0 +1,139 @@
+C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_sequencer.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_sequencer.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_sequencer.sv(5): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package ALU_sequencer_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv(5): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv(7): (vlog-2730) Undefined variable: 'ALU_transaction'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv(29): near ";": syntax error, unexpected ';', expecting '('.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv(48): near "endclass": syntax error, unexpected endclass, expecting IDENTIFIER or '='.
+
+} {4.0 7.0} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(6): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(11): (vlog-2730) Undefined variable: 'ALU_transaction'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(14): Invalid type 'ALU_sequencer'. Please check the type of the variable 'sa_seqr'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(15): Invalid type 'ALU_driver'. Please check the type of the variable 'sa_drvr'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(16): Invalid type 'ALU_monitor_before'. Please check the type of the variable 'sa_mon_before'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(17): Invalid type 'ALU_monitor_after'. Please check the type of the variable 'sa_mon_after'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(32): (vlog-2730) Undefined variable: 'sa_seqr'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(32): (vlog-2164) Class or package 'ALU_sequencer' not found.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(32): (vlog-2730) Undefined variable: 'ALU_sequencer'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(32): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(33): (vlog-2730) Undefined variable: 'sa_drvr'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(33): (vlog-2164) Class or package 'ALU_driver' not found.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(33): (vlog-2730) Undefined variable: 'ALU_driver'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(33): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(34): (vlog-2730) Undefined variable: 'sa_mon_before'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(34): (vlog-2164) Class or package 'ALU_monitor_before' not found.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(34): (vlog-2730) Undefined variable: 'ALU_monitor_before'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(34): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(35): (vlog-2730) Undefined variable: 'sa_mon_after'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(35): (vlog-2164) Class or package 'ALU_monitor_after' not found.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(35): (vlog-2730) Undefined variable: 'ALU_monitor_after'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_agent.sv(35): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {4.0 25.0} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_if.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling interface ALU_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(5): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(10): (vlog-2730) Undefined variable: 'ALU_transaction'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(27): near ";": syntax error, unexpected ';', expecting '('.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(30): (vlog-2730) Undefined variable: 'tr'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(30): (vlog-2164) Class or package 'ALU_transaction' not found.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(30): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(46): (vlog-2730) Undefined variable: 'ALU_transaction'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(50): Invalid type 'ALU_transaction'. Please check the type of the variable 'sa_tx'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(66): near ";": syntax error, unexpected ';', expecting '('.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(69): (vlog-2730) Undefined variable: 'tr'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(69): (vlog-2164) Class or package 'ALU_transaction' not found.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(69): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_monitor.sv(84): (vlog-2400) Identifier ('ALU_transaction') found where a type or type identifier is required.
+
+} {4.0 16.0} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(5): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(11): Invalid type 'ALU_agent'. Please check the type of the variable 'sa_agent'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(12): Invalid type 'ALU_scoreboard'. Please check the type of the variable 'sa_sb'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(20): (vlog-2730) Undefined variable: 'sa_agent'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(20): (vlog-2164) Class or package 'ALU_agent' not found.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(20): (vlog-2730) Undefined variable: 'ALU_agent'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(20): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(21): (vlog-2730) Undefined variable: 'sa_sb'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(21): (vlog-2164) Class or package 'ALU_scoreboard' not found.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(21): (vlog-2730) Undefined variable: 'ALU_scoreboard'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_env.sv(21): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {4.0 14.0} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv(5): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv(15): (vlog-2730) Undefined variable: 'ALU_transaction'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv(21): Invalid type 'ALU_transaction'. Please check the type of the variable 'transaction_before'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv(22): Invalid type 'ALU_transaction'. Please check the type of the variable 'transaction_after'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv(28): (vlog-2730) Undefined variable: 'transaction_before'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv(29): (vlog-2730) Undefined variable: 'transaction_after'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_scoreboard.sv(63): near "else": syntax error, unexpected else.
+
+} {4.0 10.0} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_config.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_config.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_config.sv(5): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package ALU_config_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALUDecoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALUDecoder.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module ALUDecoder
+
+Top level modules:
+	ALUDecoder
+
+} {} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_tb_top.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_tb_top.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_tb_top.sv(5): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: ** while parsing file included at C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_tb_top.sv(7)
+** at C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_pkg.sv(6): Cannot find `include file "ALU_transaction.sv" in directories:
+    C:/lscc/radiant/2024.2/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: (vlog-13069) ** while parsing file included at C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_tb_top.sv(7)
+** while parsing file included at C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_pkg.sv(11)
+** at C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv(48): near "endclass": syntax error, unexpected endclass, expecting IDENTIFIER or '='.
+
+} {4.0 5.0 7.0 8.0} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(5): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(10): Invalid type 'ALU_env'. Please check the type of the variable 'sa_env'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(18): (vlog-2730) Undefined variable: 'sa_env'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(18): (vlog-2164) Class or package 'ALU_env' not found.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(18): (vlog-2730) Undefined variable: 'ALU_env'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(18): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(22): near ";": syntax error, unexpected ';', expecting '('.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(25): (vlog-2730) Undefined variable: 'sa_seq'.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(25): (vlog-2164) Class or package 'ALU_sequence' not found.
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(25): (vlog-2730) Undefined variable: 'ALU_sequence'.
+** Error: (vlog-13069) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_test.sv(25): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {4.0 14.0} {}} C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_pkg.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_pkg.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling package ALU_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_pkg.sv(3): Using implicit +incdir+C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_pkg.sv(6): Cannot find `include file "ALU_transaction.sv" in directories:
+    C:/lscc/radiant/2024.2/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/lscc/radiant/2024.2/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: (vlog-13069) ** while parsing file included at C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_pkg.sv(11)
+** at C:/Users/drgonzales/Documents/GitHub/UVM-verification/UVM-ALU/ALU_driver.sv(48): near "endclass": syntax error, unexpected endclass, expecting IDENTIFIER or '='.
+
+} {6.0 7.0 8.0 9.0} {}}

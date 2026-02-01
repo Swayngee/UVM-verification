@@ -1,10 +1,9 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // Package file for ALU UVM components
-import uvm_pkg::*;
-`include "uvm_macros.svh"
 
 package ALU_pkg;
+	import uvm_pkg::*;
 
 	`include "ALU_sequencer.sv"
 	`include "ALU_monitor.sv"

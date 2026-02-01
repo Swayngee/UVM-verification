@@ -1,8 +1,6 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // UVM Environment for ALU
-import uvm_pkg::*;
-`include "uvm_macros.svh"
 
 class ALU_env extends uvm_env;
 //This module just generates stimulus and connects things
