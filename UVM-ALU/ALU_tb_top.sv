@@ -1,26 +1,25 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // Top-level testbench for ALU UVM verification
-import uvm_pkg::*;
-`include "uvm_macros.svh"
 
-`include "ALU_pkg.sv"
-`include "ALUDecoder.sv" //import the DUT
 `include "ALU_if.sv"
+`include "ALUDecoder.sv"
+`include "ALU_pkg.sv"
 
 module ALU_tb_top;
 	import ALU_pkg::*;
+	
 	//Interface declaration
-	ALU_if vif(); // <- declares signals 
+	ALU_if vif();
 
 	//Connects the Interface to the DUT
-	ALUDecoder dut(vif.sig_ALUop,
-			vif.sig_funct3,
-			vif.sig_funct7b5,
-			vif.sig_op,
-			vif.ALUControl);
-
-
+	ALUDecoder dut(
+		.ALUop(vif.sig_ALUop),
+		.funct3(vif.sig_funct3),
+		.funct7b5(vif.sig_funct7b5),
+		.op(vif.sig_op),
+		.ALUControl(vif.ALUControl)
+	);
 
 	initial begin
 		//Registers the Interface in the configuration block so that other
@@ -29,6 +28,6 @@ module ALU_tb_top;
 			(.scope("ifs"), .name("ALU_if"), .val(vif));
 
 		//Executes the test
-		run_test(); // literally runs the verilog simulation
+		run_test();
 	end
 endmodule

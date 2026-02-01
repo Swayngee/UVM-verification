@@ -1,4 +1,6 @@
 # UVM testbenching -- Simple Adder
 These files were created by Pedro Araujo for UVM verification explanation
 
-I have added comments (No code) to the following folder in an attempt to learn UVM methodology. Each comment was made in an attempt to understand UVM structure, syntax, and datapath. 
+I have added comments (No code) to the following folder in an attempt to learn UVM methodology. 
+
+Each comment was made in an attempt to understand UVM structure, syntax, and datapath. 

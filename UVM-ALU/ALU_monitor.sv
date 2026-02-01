@@ -1,7 +1,8 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // UVM Monitor for ALU
-
+import uvm_pkg::*;
+`include "uvm_macros.svh"
 
 class ALU_monitor_before extends uvm_monitor;
 	`uvm_component_utils(ALU_monitor_before)
@@ -27,14 +28,14 @@ class ALU_monitor_before extends uvm_monitor;
         forever begin
             // Sample the inputs 
             tr = ALU_transaction::type_id::create("tr");
-            tr.ALUop    = vif.ALUop;
-            tr.funct3   = vif.funct3;
-            tr.funct7b5 = vif.funct7b5;
-            tr.op       = vif.op;
+            tr.ALUop    = vif.sig_ALUop;
+            tr.funct3   = vif.sig_funct3;
+            tr.funct7b5 = vif.sig_funct7b5;
+            tr.op       = vif.sig_op;
 
             // Send to analysis port
             mon_ap_before.write(tr);
-	    #1
+	    #1;
         end
     endtask
 endclass: ALU_monitor_before
@@ -66,10 +67,10 @@ class ALU_monitor_after extends uvm_monitor;
         forever begin
             // Sample inputs + outputs in one transaction
             tr = ALU_transaction::type_id::create("tr");
-            tr.ALUop    = vif.ALUop;
-            tr.funct3   = vif.funct3;
-            tr.funct7b5 = vif.funct7b5;
-            tr.op       = vif.op;
+            tr.ALUop    = vif.sig_ALUop;
+            tr.funct3   = vif.sig_funct3;
+            tr.funct7b5 = vif.sig_funct7b5;
+            tr.op       = vif.sig_op;
             tr.ALUControl = vif.ALUControl;
 
             // calculate expected value
@@ -77,7 +78,7 @@ class ALU_monitor_after extends uvm_monitor;
 
             // Send to analysis port
             mon_ap_after.write(tr);
-	    #1
+	    #1;
         end
     endtask
 

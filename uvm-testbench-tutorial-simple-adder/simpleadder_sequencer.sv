@@ -25,7 +25,7 @@ class simpleadder_sequence extends uvm_sequence#(simpleadder_transaction);
 		simpleadder_transaction sa_tx;
 		
 		repeat(15) begin //starts a cyke for 15 transactions total
-		sa_tx = simpleadder_transaction::type_id::create(.name("sa_tx"), .contxt(get_full_name())); //init a blank transaction
+		sa_tx = simpleadder_transaction::type_id::create(.name("sa_tx"), .context(get_full_name())); //init a blank transaction
 
 		start_item(sa_tx); // is a call that blocks until the driver accesses the transaction being created
 		assert(sa_tx.randomize()); // trigers the rand keyword of the transaction. Randomizes the vars of the transaction

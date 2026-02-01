@@ -1,7 +1,8 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // UVM Driver for ALU
-
+import uvm_pkg::*;
+`include "uvm_macros.svh"
 
 class ALU_driver extends uvm_driver#(ALU_transaction); 
 // The # used above is an SV parameter and it represents the data type used in the sequencer
@@ -31,10 +32,10 @@ class ALU_driver extends uvm_driver#(ALU_transaction);
             seq_item_port.get_next_item(tr);
 
             // Drive inputs to DUT
-            vif.ALUop    <= tr.ALUop;
-            vif.funct3   <= tr.funct3;
-            vif.funct7b5 <= tr.funct7b5;
-            vif.op       <= tr.op;
+            vif.sig_ALUop    <= tr.ALUop;
+            vif.sig_funct3   <= tr.funct3;
+            vif.sig_funct7b5 <= tr.funct7b5;
+            vif.sig_op       <= tr.op;
 
 
             // Capture DUT output 
@@ -42,7 +43,7 @@ class ALU_driver extends uvm_driver#(ALU_transaction);
 
             // Tell sequencer we are done with this item
             seq_item_port.item_done();
- 	    #1
+ 	    #1;
         end
-	endtask drive
+	endtask: drive
 endclass: ALU_driver

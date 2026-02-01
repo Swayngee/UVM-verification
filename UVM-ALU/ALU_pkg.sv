@@ -4,6 +4,7 @@
 
 package ALU_pkg;
 	import uvm_pkg::*;
+	`include "uvm_macros.svh"
 
 	`include "ALU_sequencer.sv"
 	`include "ALU_monitor.sv"
