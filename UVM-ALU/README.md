@@ -7,7 +7,7 @@ The following code was written as a first attempt at UVM methodology, It hosts m
 This project was chosen a move to verifying direct computer hardware. 
 
 ## Progress 
-The above UVM testbench was designed to verify a simple combinational ALU. The simulation of the code was a success as seen below. 
+The above UVM testbench was designed to verify a simple combinational ALUDecoder. The simulation of the code was a success as seen below. 
 
 ![UVM output using Questa Intel FPGA Edition](images/UVM1_ALU.png)
 
@@ -15,3 +15,4 @@ At first, dealing with Questa Macro file management was difficult to grasp, but 
 
 Written by Drake Gonzales 2/2/26
 
+Updates could be written comments for the module, and more tests dealing with the ALUDecoder combinational logic. 
