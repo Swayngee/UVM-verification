@@ -9,7 +9,7 @@ This project was chosen as a start for verifying direct computer hardware.
 ## Progress 
 The above UVM testbench was designed to verify a simple combinational ImmExt for a RISCV multicycle processor. The simulation of the code was a success as seen below. 
 
-![UVM output using Questa Intel FPGA Edition](images/ExtImm.png)
+![UVM output using Questa Intel FPGA Edition](images/ExtendImm.png)
 
 Similar to the ALUDecoder UVM, this code (a combinational block) was relatively straight forward. Although I did run more tests (100) to test more test case coverage. 
 
