@@ -11,7 +11,7 @@ The above UVM testbench was designed to verify a simple combinational ALU. The s
 
 ![UVM output using Questa Intel FPGA Edition](images/UVM1_ALU.png)
 
-At first, dealing with Questa Macro file management was difficult to grasp, but the above photo shows that the testbench showed 2 warnings (mostly dealing with the command used for sim) and 0 errors with is a success! 
+At first, dealing with Questa Macro file management was difficult to grasp, but the above photo shows that the testbench showed 2 warnings (mostly dealing with the command used for sim) and 0 errors which is a success! 
 
 Written by Drake Gonzales 2/2/26
 
