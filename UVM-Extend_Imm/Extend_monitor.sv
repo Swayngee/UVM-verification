@@ -80,7 +80,7 @@ class Extend_monitor_after extends uvm_monitor;
     endtask
 
 virtual function bit [31:0] predictor(Extend_transaction tr); //basically our ALUdecoder logic to predict output
-  case (tr.Immsrc)
+	case (tr.ImmSrc)
     2'b00: predictor = {{20{tr.Instr[31]}}, tr.Instr[31:20]};
     2'b01: predictor = {{20{tr.Instr[31]}}, tr.Instr[31:25], tr.Instr[11:7]};
     2'b10: predictor = {{20{tr.Instr[31]}}, tr.Instr[7],
