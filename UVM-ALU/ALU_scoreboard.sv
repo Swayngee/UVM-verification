@@ -1,6 +1,7 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // UVM Scoreboard for ALU
+
 import uvm_pkg::*;
 `include "uvm_macros.svh"
 
@@ -58,12 +59,13 @@ class ALU_scoreboard extends uvm_scoreboard;
 	endtask: run_phase
 
 	virtual function void compare();
-		if(transaction_after.ALUControl == transaction_after.ALUControl_expected)
+		if(transaction_after.ALUControl == transaction_after.ALUControl_expected) begin
     		`uvm_info("COMPARE", "Test: OK!", UVM_LOW);
-		else
+		end else begin
     		`uvm_error("COMPARE", $sformatf("FAIL! DUT=%0b, EXPECTED=%0b",
                                      transaction_after.ALUControl,
                                      transaction_after.ALUControl_expected));
+		end
 	endfunction: compare
 
 endclass: ALU_scoreboard

@@ -1,6 +1,7 @@
 // Drake Gonzales
 // drgonzales@g.hmc.edu
 // UVM Driver for ALU
+
 import uvm_pkg::*;
 `include "uvm_macros.svh"
 
@@ -16,9 +17,13 @@ class ALU_driver extends uvm_driver#(ALU_transaction);
 
 	function void build_phase(uvm_phase phase); // Starts the build phase of the class. Is executed before the run phase
 		super.build_phase(phase);
-
-		void'(uvm_resource_db#(virtual ALU_if)::read_by_name // Gets the interface from the factory database. Same interface instance as in the tb_top
-			(.scope("ifs"), .name("ALU_if"), .val(vif)));
+		void'(
+			uvm_resource_db#(virtual ALU_if)::read_by_name(
+			.scope("*"), 
+			.name("ALU_if"), 
+			.val(vif)
+			)
+		);
 	endfunction: build_phase
 
 	task run_phase(uvm_phase phase); // Run phase where the code of the driver is executed
